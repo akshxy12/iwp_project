@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap'); /* Nunito Sans */
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400&display=swap'); /* font-family: 'Quattrocento Sans', sans-serif; */
+
+#login_container {
+    width: 30%;
+    margin: 8rem auto;
+    padding: 0.5rem 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: "Nunito Sans", sans-serif;
+
+    background-image: linear-gradient(#0f2fa4e3, #192B6A);
+    border-radius: 1rem;
+}
+
+#login_container h2 {
+    margin: 1.2rem 0;
+
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+#login_container form {
+    margin: 2rem 0;
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+}
+
+#login_container input {
+    padding: 0.8rem 1.3rem;
+    font-size: 1.2rem;
+    font-weight: thin;
+
+    border: 3px solid transparent;
+    border-radius: 0.5rem;
+
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+}
+
+#login_container input::-webkit-input-placeholder{
+    color: #8B9EE3;
+}
+
+#login_container input:hover {
+    border-color: #8B9EE3;
+}
+
+#login_container button {
+    margin: 0.5rem auto;
+    padding: 0.8rem 1.2rem;
+    width: 60%;
+
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: thin;
+    color: white;
+
+    background-color: #26A96C;
+    border: none;
+    border-radius: 1rem;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+}
+
+#login_container button:hover {
+    background-color: #088249;
+}
+
+#create_account_container {
+    padding-left: 3.6rem;
+
+    font-size: 0.9rem;
+    color: white;
+}
+
+#create_account_container span {
+    color: #75c1ff;
+}
+
+#create_account_container a {
+    text-decoration: none;
+}
+
+#create_account_container span:hover {
+    text-decoration: underline;
+}
+
+#login_error_container {
+    color: red;
+}

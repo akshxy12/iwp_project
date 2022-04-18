@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap"); /* font-family: "Nunito Sans", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400&display=swap"); /* font-family: 'Quattrocento Sans', sans-serif; */
+
+#createplan_container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 3rem 0;
+
+    font-family: "Nunito Sans", sans-serif;
+}
+
+#createplan_form_header_container {
+    width: 100%;
+    padding: 0.6rem 1rem;
+
+    background-color: #1332a0;
+    color: white;
+
+    border-radius: 0.2rem;
+}
+
+#createplan_header_container h2 {
+    font-weight: 500;
+}
+
+#createplan_form_container {
+    width: 100%;
+    padding: 1rem 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#createplan_form_container form {
+    padding: 1rem 2rem;
+}
+
+#createplan_form_container td {
+    padding: 0.5rem 1rem;
+
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+#createplan_container label {
+    padding: 0.2rem 1rem;
+}
+
+#createplan_form_container input {
+    padding: 0.2rem 0.5rem;
+
+    background-color: #aabcf7;
+
+    font-size: 1rem;
+
+    border: 3px solid transparent;
+    border-radius: 0.2rem;
+
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+}
+
+#createplan_form_container input:hover {
+    border-color: #7593ff;
+}
+
+#createplan_container button {
+    width: 150px;
+    padding: 0.5rem 1rem;
+
+    background-color: #1332a0;
+    color: white;
+
+    font-family: "Quattrocento Sans", sans-serif;
+    font-size: 1.2rem;
+
+    border: 3px solid transparent;
+    border-radius: 1rem;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+}
+
+#createplan_container button:hover {
+    background-color: #0b216f;
+}

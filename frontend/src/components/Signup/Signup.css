@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap'); /* Nunito Sans */
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400&display=swap'); /* font-family: 'Quattrocento Sans', sans-serif; */
+
+#signup_container {
+    width: 60%;
+    margin: 8rem auto;
+    padding: 0.5rem 0;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: "Nunito Sans", sans-serif;
+
+    border-radius: 1rem;
+}
+
+#signup_header_container {
+    width: 100%;
+    padding: 0 1rem;
+    background-color: #0f2fa4e3;
+
+    border-radius: 0.2rem;
+}
+
+#signup_container h2 {
+    margin: 1.2rem 0;
+
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+#signup_container form {
+    margin: 2rem 0;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+#signup_container form table{
+    width: 100%;
+    padding: 0 2rem;
+
+    font-size: 1.1rem;
+}
+
+#signup_container form table td {
+    width: 150px;
+}
+
+#signup_container input {
+    padding: 0.2rem 0.5rem;
+
+    background-color: #d9e1ff;
+
+    font-size: 1.1rem;
+
+    border: 3px solid transparent;
+    border-radius: 0.5rem;
+
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+}
+
+#signup_container input:hover {
+    border-color: #8B9EE3;
+}
+
+#already_have_account_container {
+    align-self: flex-end;
+}
+
+#already_have_account_container a {
+    color: #375eea;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#already_have_account_container a:hover {
+    text-decoration: underline;
+}
+
+#signup_container button {
+    margin: 0.5rem auto;
+    padding: 0.8rem 1.2rem;
+    width: 180px;
+
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: thin;
+    color: white;
+
+    background-color: #26A96C;
+    border: none;
+    border-radius: 1rem;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+}
+
+#signup_container button:hover {
+    background-color: #088249;
+}
+
+#signup_error_container {
+    text-align: center;
+    font-size: 1.2rem;
+    color: red;
+}
+
+#message_container {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #06c069;
+}
